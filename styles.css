@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+#text {
+    display: none;
+}
+
+#area {
+    width: 100%;
+    height: 90%;
+    resize: none;
+    font-size: 2em;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+#options {
+    height: 10%;
+    background: #3465A4FF;
+}
+
+#notes-list {
+    list-style: none;
+}
+
+#notes-list li {
+    list-style: none;
+    display: inline-block;
+    height: 100%;
+    padding: 20px;
+    background: #3465A4FF;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial, 'Sans-Serif';
+}
+
+#notes-list li:hover {
+    background: #204A87FF;
+    cursor: pointer;
+}
+
+#notes-list li.active {
+    background: #204A87FF;
+}
