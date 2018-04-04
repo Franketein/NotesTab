@@ -4,15 +4,31 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Productivity Tab</title>
+    <link rel="stylesheet" type="text/css" href="icons.css">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="options">
+    <div id="toolbar">
         <ol id="notes-list">
             <li id="create-note">CREATE NOTE</li>
+            <li id="menu-button"><span class="icon-cog"></span></li>
         </ol>
     </div>
     <textarea id="area"></textarea>
+    <ul id="settings" class="hidden">
+        <li>Note Title:</li>
+        <li>
+            <input id="note-title" type="text">
+        </li>
+        <li>Font Size:</li>
+        <li>
+            <input id="font-size" type="number" min="10" max="100" placeholder="24">
+        </li>
+        <li>Delete Note:</li>
+        <li>
+            <input id="erase" type="button" value="Delete"></button>
+        </li>
+    </ul>
     <script src="script.js"></script>
 </body>
 </html>

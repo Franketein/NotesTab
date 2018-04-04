@@ -2,9 +2,9 @@
 
   "manifest_version": 2,
   "name": "NotesTab",
-  "version": "1.0",
+  "version": "1.1",
 
-  "description": "Changes new tab to a very simple text editor",
+  "description": "Changes new tab to a very simple text editor with custom notes",
 
   "icons": {
     "16": "icon16.png",

@@ -8,7 +8,7 @@ html, body {
     height: 100%;
 }
 
-#text {
+.hidden {
     display: none;
 }
 
@@ -18,10 +18,11 @@ html, body {
     resize: none;
     font-size: 2em;
     padding: 2%;
+    color: black;
     box-sizing: border-box;
 }
 
-#options {
+#toolbar {
     height: 10%;
     background: #3465A4FF;
 }
@@ -34,7 +35,7 @@ html, body {
     list-style: none;
     display: inline-block;
     height: 100%;
-    padding: 20px;
+    padding: 1em;
     background: #3465A4FF;
     font-weight: bold;
     color: white;
@@ -49,4 +50,46 @@ html, body {
 
 #notes-list li.active {
     background: #204A87FF;
+}
+
+#menu-button {
+    float: right;
+    padding: 0.8em 0.7em 0.6em 0.7em !important;
+}
+
+#menu-button span {
+    font-size: 1.6em;
+}
+
+#settings {
+    height: 90%;
+    width: 20%;
+    float: right;
+    background: #3465A4FF;
+    color: white;
+    padding: 0 1em;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#settings li:nth-child(even) {
+    padding: 3px 0 20px 0;
+}
+
+#settings li input {
+    width: 100%;
+    color: black;
+}
+
+#erase {
+    background-color: white;
+}
+
+#erase:hover {
+    background-color: #BABDB6FF;
+}
+
+#erase:disabled {
+    background-color: #2E3436FF;
 }
